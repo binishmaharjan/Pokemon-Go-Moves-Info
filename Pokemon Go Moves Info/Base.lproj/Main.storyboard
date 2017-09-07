@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5h1-H9-NA7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="BGB-XV-nJM">
+            <objects>
+                <viewController id="ktj-kb-3WD" customClass="MainViewController" customModule="Pokemon_Go_Moves_Info" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZSY-rx-AcL"/>
+                        <viewControllerLayoutGuide type="bottom" id="RoZ-m5-iPJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JyC-a4-IcD">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background ice" translatesAutoresizingMaskIntoConstraints="NO" id="jSN-5S-xSA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bQJ-1W-aVR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="E96-IO-oSy" customClass="PokemonCell" customModule="Pokemon_Go_Moves_Info" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E96-IO-oSy" id="7RE-Oy-2eW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon_bg" translatesAutoresizingMaskIntoConstraints="NO" id="BJ5-Yf-UKW">
+                                                    <rect key="frame" x="6" y="5" width="113" height="90"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="90" id="gkM-Ql-xQW"/>
+                                                        <constraint firstAttribute="width" constant="113" id="z9t-tJ-WmA"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main1" translatesAutoresizingMaskIntoConstraints="NO" id="uVj-jj-Qt6">
+                                                    <rect key="frame" x="32" y="19" width="61" height="61"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="61" id="5vs-Xa-57m"/>
+                                                        <constraint firstAttribute="height" constant="61" id="7je-ar-gpW"/>
+                                                    </constraints>
+                                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bulbasaur | #1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ja-HZ-Krj">
+                                                    <rect key="frame" x="114" y="26" width="248" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seperator" translatesAutoresizingMaskIntoConstraints="NO" id="sIA-AU-p5b">
+                                                    <rect key="frame" x="90" y="78" width="285" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="je3-7h-gBP"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_icon" translatesAutoresizingMaskIntoConstraints="NO" id="UiA-w8-SFK">
+                                                    <rect key="frame" x="114" y="48" width="22" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JRn-76-Iok">
+                                                    <rect key="frame" x="220" y="47" width="22" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCj-3X-27P">
+                                                    <rect key="frame" x="144" y="48" width="75" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="12"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdz-gt-dQV">
+                                                    <rect key="frame" x="250" y="49" width="75" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="12"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="BJ5-Yf-UKW" firstAttribute="top" secondItem="7RE-Oy-2eW" secondAttribute="top" constant="5" id="GZh-lk-DXT"/>
+                                                <constraint firstAttribute="bottom" secondItem="BJ5-Yf-UKW" secondAttribute="bottom" constant="5" id="Hsy-6R-RS2"/>
+                                                <constraint firstItem="BJ5-Yf-UKW" firstAttribute="leading" secondItem="7RE-Oy-2eW" secondAttribute="leading" constant="6" id="KJS-ZM-bdj"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="uVj-jj-Qt6" secondAttribute="bottom" constant="12" id="RoK-dG-fyF"/>
+                                                <constraint firstItem="uVj-jj-Qt6" firstAttribute="leading" secondItem="7RE-Oy-2eW" secondAttribute="leadingMargin" constant="24" id="YjV-WP-E7N"/>
+                                                <constraint firstItem="uVj-jj-Qt6" firstAttribute="top" secondItem="7RE-Oy-2eW" secondAttribute="topMargin" constant="11" id="kTA-j0-cih"/>
+                                                <constraint firstAttribute="bottom" secondItem="sIA-AU-p5b" secondAttribute="bottom" constant="5" id="pDB-r9-V0D"/>
+                                                <constraint firstItem="sIA-AU-p5b" firstAttribute="leading" secondItem="7RE-Oy-2eW" secondAttribute="leading" constant="90" id="pi5-Su-FHd"/>
+                                                <constraint firstAttribute="trailing" secondItem="sIA-AU-p5b" secondAttribute="trailing" id="w1u-ha-oqZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="pokemon_image" destination="uVj-jj-Qt6" id="Oid-Vs-eaS"/>
+                                            <outlet property="pokemon_label" destination="3Ja-HZ-Krj" id="z0j-Ub-Q5w"/>
+                                            <outlet property="type1_image" destination="UiA-w8-SFK" id="fG9-dC-WWE"/>
+                                            <outlet property="type1_label" destination="YCj-3X-27P" id="98X-7L-lJk"/>
+                                            <outlet property="type2_image" destination="JRn-76-Iok" id="MJi-ys-inp"/>
+                                            <outlet property="type2_label" destination="Zdz-gt-dQV" id="plj-2a-r4L"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jSN-5S-xSA" firstAttribute="leading" secondItem="JyC-a4-IcD" secondAttribute="leading" id="9de-jJ-CKI"/>
+                            <constraint firstItem="bQJ-1W-aVR" firstAttribute="leading" secondItem="JyC-a4-IcD" secondAttribute="leading" id="CNi-Jb-vQf"/>
+                            <constraint firstItem="RoZ-m5-iPJ" firstAttribute="top" secondItem="bQJ-1W-aVR" secondAttribute="bottom" id="Cm5-zU-I8s"/>
+                            <constraint firstItem="bQJ-1W-aVR" firstAttribute="top" secondItem="ZSY-rx-AcL" secondAttribute="bottom" id="O1t-An-6tA"/>
+                            <constraint firstAttribute="trailing" secondItem="bQJ-1W-aVR" secondAttribute="trailing" id="Vn6-f5-NOY"/>
+                            <constraint firstItem="jSN-5S-xSA" firstAttribute="top" secondItem="JyC-a4-IcD" secondAttribute="top" id="jgq-My-f8D"/>
+                            <constraint firstItem="RoZ-m5-iPJ" firstAttribute="top" secondItem="jSN-5S-xSA" secondAttribute="bottom" id="rPU-rY-4iZ"/>
+                            <constraint firstAttribute="trailing" secondItem="jSN-5S-xSA" secondAttribute="trailing" id="xMJ-Cb-33Y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dNZ-5E-YNi"/>
+                    <connections>
+                        <outlet property="pokemonTableView" destination="bQJ-1W-aVR" id="WyG-3q-SWK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBf-5h-lF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852" y="-120"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="DRC-lM-99N">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="Sez-f5-Xtf" customClass="DetailViewController" customModule="Pokemon_Go_Moves_Info" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vgD-RD-l5f"/>
+                        <viewControllerLayoutGuide type="bottom" id="TnZ-bi-fxk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PiU-H5-XVy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Detail" image="background ice" translatesAutoresizingMaskIntoConstraints="NO" id="glY-gi-jaX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uU-pO-4rh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TnZ-bi-fxk" firstAttribute="top" secondItem="glY-gi-jaX" secondAttribute="bottom" id="6xh-HF-QEl"/>
+                            <constraint firstItem="2uU-pO-4rh" firstAttribute="leading" secondItem="PiU-H5-XVy" secondAttribute="leading" id="Dmy-2O-kdL"/>
+                            <constraint firstItem="glY-gi-jaX" firstAttribute="leading" secondItem="PiU-H5-XVy" secondAttribute="leading" id="H2y-id-xtH"/>
+                            <constraint firstItem="2uU-pO-4rh" firstAttribute="top" secondItem="vgD-RD-l5f" secondAttribute="bottom" id="Khj-KH-cCA"/>
+                            <constraint firstItem="glY-gi-jaX" firstAttribute="top" secondItem="PiU-H5-XVy" secondAttribute="top" id="OTH-lV-d3e"/>
+                            <constraint firstAttribute="trailing" secondItem="glY-gi-jaX" secondAttribute="trailing" id="PsY-AG-liV"/>
+                            <constraint firstItem="TnZ-bi-fxk" firstAttribute="top" secondItem="2uU-pO-4rh" secondAttribute="bottom" id="QWy-tp-iUu"/>
+                            <constraint firstAttribute="trailing" secondItem="2uU-pO-4rh" secondAttribute="trailing" id="fuX-0L-WrO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainScrollView" destination="2uU-pO-4rh" id="3aD-Ke-Gxc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tTL-W8-HI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2666.4000000000001" y="-122.78860569715144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4zH-JK-403">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5h1-H9-NA7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="uq7-9J-E26">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ktj-kb-3WD" kind="relationship" relationship="rootViewController" id="7ZL-1o-WnR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9GS-1e-BpF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941.60000000000002" y="-119.1904047976012"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background ice" width="728" height="1294"/>
+        <image name="grass_icon" width="256" height="256"/>
+        <image name="main1" width="94" height="86"/>
+        <image name="pokemon_bg" width="404" height="407"/>
+        <image name="seperator" width="424" height="20"/>
+    </resources>
+</document>
