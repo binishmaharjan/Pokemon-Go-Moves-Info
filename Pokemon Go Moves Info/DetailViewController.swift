@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     var pokemon : [String : Any] = [String : Any]()
-    var types : [[String : Any]] = [[String : Any]]()
+    var alltypes : [[String : Any]] = [[String : Any]]()
     var allmoves : [[String : Any]] = [[String : Any]]()
     var topView : UIView = UIView()
     var type1 : [String : Any] = [String : Any]()
@@ -55,7 +55,7 @@ class DetailViewController: UIViewController {
         if let path_for_types  = Bundle.main.path(forResource: "types", ofType: "plist"){
             if let array = NSArray.init(contentsOfFile: path_for_types) as? [[String : Any]]{
                 array.forEach({ (item) in
-                    types.append(item)
+                    alltypes.append(item)
                 })
                 
             }
@@ -121,9 +121,9 @@ class DetailViewController: UIViewController {
         //customizing the type1
         if let type1_of_pokemon = pokemon["type1"] as? String {
             var type : [String : Any] = [String : Any]()
-            types.forEach({ (item) in
-                if let name = item["name"] as? String{
-                    if name == type1_of_pokemon {
+            alltypes.forEach({ (item) in
+                if let typeid = item["id"] as? String{
+                    if typeid == type1_of_pokemon {
                         type = item
                         type1 = item
                     }
@@ -136,9 +136,9 @@ class DetailViewController: UIViewController {
         if let type2_of_pokemon = pokemon["type2"] as? String {
             if type2_of_pokemon != "nil" {
                 var type : [String : Any] = [String : Any]()
-                types.forEach({ (item) in
-                    if let name = item["name"] as? String{
-                        if name == type2_of_pokemon {
+                alltypes.forEach({ (item) in
+                    if let typeid = item["id"] as? String{
+                        if typeid == type2_of_pokemon {
                             type = item
                             type2 = item
                         }
@@ -602,7 +602,7 @@ class DetailViewController: UIViewController {
         if let moves_string = pokemon[search_field] as? [String]{
            moves_string.forEach({ (name) in
                 allmoves.forEach({ (al_m) in
-                    if let al_m_name = al_m["name"] as? String{
+                    if let al_m_name = al_m["id"] as? String{
                         if name == al_m_name{
                             moves.append(al_m)
                         }
@@ -627,11 +627,11 @@ class DetailViewController: UIViewController {
             }
             
             let imageView : UIImageView = UIImageView()
-            if let move_type = move["type"] as? String{
+            if let move_typeid = move["type_id"] as? String{
                 var type_detail : [String : Any]  = [String : Any]()
-                types.forEach({ (type) in
-                    if let name = type["name"] as? String{
-                        if name == move_type{
+                alltypes.forEach({ (type) in
+                    if let typeid = type["id"] as? String{
+                        if typeid == move_typeid{
                             type_detail = type
                         }
                     }
@@ -781,9 +781,9 @@ class DetailViewController: UIViewController {
     func getStrongAgainstOrWeakAgainstFromArray(temp : [String]) -> [[String : Any]]{
         var tempArray : [[String : Any]] = [[String : Any]]()
         temp.forEach({ (type_name) in
-            types.forEach({ (temp_type) in
+            alltypes.forEach({ (temp_type) in
                 if let name_ts = type_name as? String{
-                    if let name_tt = temp_type["name"] as? String{
+                    if let name_tt = temp_type["id"] as? String{
                         if name_ts == name_tt{
                             tempArray.append(temp_type)
                         }

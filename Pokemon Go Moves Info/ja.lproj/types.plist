@@ -3,372 +3,408 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>id</key>
+		<string>1</string>
 		<key>name</key>
-		<string>Normal</string>
+		<string>ノーマル</string>
 		<key>color_code</key>
 		<string>a8a878</string>
 		<key>icon</key>
 		<string>normal_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Ghost</string>
+			<string>8</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Fighting</string>
+			<string>2</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>2</string>
 		<key>name</key>
-		<string>Fighting</string>
+		<string>かくとう</string>
 		<key>color_code</key>
 		<string>c02038</string>
 		<key>icon</key>
 		<string>fighting_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Rock</string>
-			<string>Bug</string>
-			<string>Dark</string>
+			<string>6</string>
+			<string>7</string>
+			<string>17</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Flying</string>
-			<string>Psychic</string>
-			<string>Fairy</string>
+			<string>3</string>
+			<string>14</string>
+			<string>18</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>3</string>
 		<key>name</key>
-		<string>Flying</string>
+		<string>ひこう</string>
 		<key>color_code</key>
 		<string>a890f0</string>
 		<key>icon</key>
 		<string>flying_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Ground</string>
-			<string>Bug</string>
-			<string>Grass</string>
+			<string>2</string>
+			<string>5</string>
+			<string>7</string>
+			<string>12</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Rock</string>
-			<string>Electric</string>
-			<string>Ice</string>
+			<string>6</string>
+			<string>13</string>
+			<string>15</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>4</string>
 		<key>name</key>
-		<string>Poison</string>
+		<string>どく</string>
 		<key>color_code</key>
 		<string>a040a0</string>
 		<key>icon</key>
 		<string>poison_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Poison</string>
-			<string>Bug</string>
-			<string>Grass</string>
-			<string>Fairy</string>
+			<string>2</string>
+			<string>4</string>
+			<string>7</string>
+			<string>12</string>
+			<string>18</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Ground</string>
-			<string>Psychic</string>
+			<string>5</string>
+			<string>14</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>5</string>
 		<key>name</key>
-		<string>Ground</string>
+		<string>じめん</string>
 		<key>color_code</key>
 		<string>e0c068</string>
 		<key>icon</key>
 		<string>ground_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Poison</string>
-			<string>Rock</string>
-			<string>Electric</string>
+			<string>4</string>
+			<string>6</string>
+			<string>13</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Water</string>
-			<string>Grass</string>
-			<string>Ice</string>
+			<string>11</string>
+			<string>12</string>
+			<string>15</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>6</string>
 		<key>name</key>
-		<string>Rock</string>
+		<string>いわ</string>
 		<key>color_code</key>
 		<string>b8a038</string>
 		<key>icon</key>
 		<string>rock_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Normal</string>
-			<string>Flying</string>
-			<string>Poison</string>
-			<string>Fire</string>
+			<string>1</string>
+			<string>3</string>
+			<string>4</string>
+			<string>10</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Ground</string>
-			<string>Steel</string>
+			<string>2</string>
+			<string>5</string>
+			<string>9</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>7</string>
 		<key>name</key>
-		<string>Bug</string>
+		<string>むし</string>
 		<key>color_code</key>
 		<string>a8b820</string>
 		<key>icon</key>
 		<string>bug_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Ground</string>
-			<string>Grass</string>
+			<string>2</string>
+			<string>5</string>
+			<string>12</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Flying</string>
-			<string>Rock</string>
-			<string>Fire</string>
+			<string>3</string>
+			<string>6</string>
+			<string>10</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>8</string>
 		<key>name</key>
-		<string>Ghost</string>
+		<string>ゴースト</string>
 		<key>color_code</key>
 		<string>705898</string>
 		<key>icon</key>
 		<string>ghost_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Normal</string>
-			<string>Fighting</string>
-			<string>Poison</string>
-			<string>Bug</string>
+			<string>1</string>
+			<string>2</string>
+			<string>4</string>
+			<string>7</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Ghost</string>
-			<string>Dark</string>
+			<string>8</string>
+			<string>17</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>9</string>
 		<key>name</key>
-		<string>Steel</string>
+		<string>はがね</string>
 		<key>color_code</key>
 		<string>b8b8d0</string>
 		<key>icon</key>
 		<string>steel_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Normal</string>
-			<string>Flying</string>
-			<string>Poison</string>
-			<string>Rock</string>
-			<string>Bug</string>
-			<string>Steel</string>
-			<string>Grass</string>
-			<string>Psychic</string>
-			<string>Ice</string>
-			<string>Dragon</string>
-			<string>Fairy</string>
+			<string>1</string>
+			<string>3</string>
+			<string>4</string>
+			<string>6</string>
+			<string>7</string>
+			<string>9</string>
+			<string>12</string>
+			<string>14</string>
+			<string>15</string>
+			<string>16</string>
+			<string>18</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Ground</string>
-			<string>Fire</string>
+			<string>2</string>
+			<string>5</string>
+			<string>10</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>10</string>
 		<key>name</key>
-		<string>Fire</string>
+		<string>ほのう</string>
 		<key>color_code</key>
 		<string>f08030</string>
 		<key>icon</key>
 		<string>fire_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Bug</string>
-			<string>Steel</string>
-			<string>Fire</string>
-			<string>Grass</string>
-			<string>Ice</string>
-			<string>Fairy</string>
+			<string>7</string>
+			<string>9</string>
+			<string>10</string>
+			<string>12</string>
+			<string>15</string>
+			<string>18</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Ground</string>
-			<string>Rock</string>
-			<string>Water</string>
+			<string>5</string>
+			<string>6</string>
+			<string>11</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>11</string>
 		<key>name</key>
-		<string>Water</string>
+		<string>みず</string>
 		<key>color_code</key>
 		<string>6890f0</string>
 		<key>icon</key>
 		<string>water_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Steel</string>
-			<string>Fire</string>
-			<string>Water</string>
-			<string>Ice</string>
+			<string>9</string>
+			<string>10</string>
+			<string>11</string>
+			<string>15</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Grass</string>
-			<string>Electric</string>
+			<string>12</string>
+			<string>13</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>12</string>
 		<key>name</key>
-		<string>Grass</string>
+		<string>くさ</string>
 		<key>color_code</key>
 		<string>78c850</string>
 		<key>icon</key>
 		<string>grass_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Ground</string>
-			<string>Water</string>
-			<string>Grass</string>
-			<string>Electric</string>
+			<string>5</string>
+			<string>11</string>
+			<string>12</string>
+			<string>13</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Flying</string>
-			<string>Poison</string>
-			<string>Bug</string>
-			<string>Fire</string>
-			<string>Ice</string>
+			<string>3</string>
+			<string>4</string>
+			<string>7</string>
+			<string>10</string>
+			<string>15</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>13</string>
 		<key>name</key>
-		<string>Electric</string>
+		<string>でんき</string>
 		<key>color_code</key>
 		<string>f8d030</string>
 		<key>icon</key>
 		<string>electric_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Flying</string>
-			<string>Steel</string>
-			<string>Electric</string>
+			<string>3</string>
+			<string>9</string>
+			<string>13</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Ground</string>
+			<string>5</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>14</string>
 		<key>name</key>
-		<string>Psychic</string>
+		<string>エスーパ</string>
 		<key>color_code</key>
 		<string>f85888</string>
 		<key>icon</key>
 		<string>psychic_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Psychic</string>
+			<string>2</string>
+			<string>14</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Bug</string>
-			<string>Ghost</string>
-			<string>Dark</string>
+			<string>7</string>
+			<string>8</string>
+			<string>17</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>15</string>
 		<key>name</key>
-		<string>Ice</string>
+		<string>こおり</string>
 		<key>color_code</key>
-		<string>7038f8</string>
+		<string>98d8d8</string>
 		<key>icon</key>
 		<string>ice_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Ice</string>
+			<string>15</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Rock</string>
-			<string>Steel</string>
-			<string>Fire</string>
+			<string>6</string>
+			<string>9</string>
+			<string>10</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>16</string>
 		<key>name</key>
-		<string>Dragon</string>
+		<string>ドラゴン</string>
 		<key>color_code</key>
 		<string>7038f8</string>
 		<key>icon</key>
 		<string>dragon_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Fire</string>
-			<string>Water</string>
-			<string>Grass</string>
-			<string>Electric</string>
+			<string>10</string>
+			<string>11</string>
+			<string>12</string>
+			<string>13</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Ice</string>
-			<string>Dragon</string>
-			<string>Fairy</string>
+			<string>15</string>
+			<string>16</string>
+			<string>18</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>17</string>
 		<key>name</key>
-		<string>Dark</string>
+		<string>あく</string>
 		<key>color_code</key>
 		<string>705848</string>
 		<key>icon</key>
 		<string>dark_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Ghost</string>
-			<string>Psychic</string>
-			<string>Dark</string>
+			<string>8</string>
+			<string>14</string>
+			<string>17</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Bug</string>
-			<string>Fairy</string>
+			<string>2</string>
+			<string>7</string>
+			<string>18</string>
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>18</string>
 		<key>name</key>
-		<string>Fairy</string>
+		<string>フェァリー</string>
 		<key>color_code</key>
 		<string>ee99ca</string>
 		<key>icon</key>
 		<string>fairy_icon</string>
 		<key>strong_against</key>
 		<array>
-			<string>Fighting</string>
-			<string>Bug</string>
-			<string>Dragon</string>
-			<string>Dark</string>
+			<string>2</string>
+			<string>7</string>
+			<string>16</string>
+			<string>17</string>
 		</array>
 		<key>weak_against</key>
 		<array>
-			<string>Poison</string>
-			<string>Steel</string>
+			<string>4</string>
+			<string>9</string>
 		</array>
 	</dict>
 </array>
