@@ -109,8 +109,8 @@ class MainViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         if let type1_of_pokemon = current_pokemon["type1"] as? String {
             var type : [String : Any]? = [String : Any]()
             types?.forEach({ (item) in
-                if let type_name = item["name"] as? String{
-                    if type_name == type1_of_pokemon{
+                if let type_id = item["id"] as? String{
+                    if type_id == type1_of_pokemon{
                         type = item
                     }
                 }
@@ -129,8 +129,8 @@ class MainViewController: UIViewController, UITableViewDelegate,UITableViewDataS
             if type2_of_pokemon != "nil" {
                 var type : [String : Any]? = [String : Any]()
                 types?.forEach({ (item) in
-                    if let type_name = item["name"] as? String{
-                        if type_name == type2_of_pokemon{
+                    if let type_id = item["id"] as? String{
+                        if type_id == type2_of_pokemon{
                             type = item
                         }
                     }

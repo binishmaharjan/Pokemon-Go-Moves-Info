@@ -8,32 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		ACA1853B1F5331DD00662CD6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1853A1F5331DD00662CD6 /* MainViewController.swift */; };
-		ACA185411F53750B00662CD6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA185401F53750B00662CD6 /* TableViewController.swift */; };
 		ACA185431F537C9200662CD6 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA185421F537C9200662CD6 /* PokemonCell.swift */; };
 		ACA185451F547B9400662CD6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA185441F547B9400662CD6 /* DetailViewController.swift */; };
+		ACAE17321F831211003C43CB /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACAE17341F831211003C43CB /* types.plist */; };
+		ACAE17371F831221003C43CB /* genOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACAE17391F831221003C43CB /* genOne.plist */; };
+		ACAE173C1F831232003C43CB /* allmoves.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACAE173E1F831232003C43CB /* allmoves.plist */; };
 		ACCCB5511F49421A0015E23D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCCB5501F49421A0015E23D /* AppDelegate.swift */; };
 		ACCCB5561F49421A0015E23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCCB5541F49421A0015E23D /* Main.storyboard */; };
 		ACCCB5581F49421A0015E23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCCB5571F49421A0015E23D /* Assets.xcassets */; };
 		ACCCB55B1F49421A0015E23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCCB5591F49421A0015E23D /* LaunchScreen.storyboard */; };
-		ACCCB5631F49F4370015E23D /* allmoves.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCCB5621F49F4370015E23D /* allmoves.plist */; };
-		ACCCB5651F510F4F0015E23D /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCCB5641F510F4E0015E23D /* types.plist */; };
-		ACCCB5671F51ECB30015E23D /* genOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCCB5661F51ECB30015E23D /* genOne.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACA1853A1F5331DD00662CD6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		ACA185401F53750B00662CD6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		ACA185421F537C9200662CD6 /* PokemonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
 		ACA185441F547B9400662CD6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ACAE172E1F8311FD003C43CB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		ACAE172F1F8311FD003C43CB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		ACAE17301F831207003C43CB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		ACAE17311F831207003C43CB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		ACAE17331F831211003C43CB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/types.plist; sourceTree = "<group>"; };
+		ACAE17351F831213003C43CB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/types.plist; sourceTree = "<group>"; };
+		ACAE17361F83121A003C43CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/types.plist; sourceTree = "<group>"; };
+		ACAE17381F831221003C43CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/genOne.plist; sourceTree = "<group>"; };
+		ACAE173A1F831224003C43CB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/genOne.plist; sourceTree = "<group>"; };
+		ACAE173B1F83122A003C43CB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/genOne.plist; sourceTree = "<group>"; };
+		ACAE173D1F831232003C43CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/allmoves.plist; sourceTree = "<group>"; };
+		ACAE173F1F831235003C43CB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/allmoves.plist; sourceTree = "<group>"; };
+		ACAE17401F831238003C43CB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/allmoves.plist; sourceTree = "<group>"; };
 		ACCCB54D1F49421A0015E23D /* Pokemon Go Moves Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Go Moves Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCCB5501F49421A0015E23D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCCB5551F49421A0015E23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCCB5571F49421A0015E23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCCB55A1F49421A0015E23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCCB55C1F49421A0015E23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACCCB5621F49F4370015E23D /* allmoves.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = allmoves.plist; sourceTree = "<group>"; };
-		ACCCB5641F510F4E0015E23D /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
-		ACCCB5661F51ECB30015E23D /* genOne.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = genOne.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,9 @@
 		ACCCB56A1F52835B0015E23D /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				ACCCB5641F510F4E0015E23D /* types.plist */,
-				ACCCB5661F51ECB30015E23D /* genOne.plist */,
-				ACCCB5621F49F4370015E23D /* allmoves.plist */,
+				ACAE17341F831211003C43CB /* types.plist */,
+				ACAE17391F831221003C43CB /* genOne.plist */,
+				ACAE173E1F831232003C43CB /* allmoves.plist */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -91,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				ACA1853A1F5331DD00662CD6 /* MainViewController.swift */,
-				ACA185401F53750B00662CD6 /* TableViewController.swift */,
 				ACA185421F537C9200662CD6 /* PokemonCell.swift */,
 				ACA185441F547B9400662CD6 /* DetailViewController.swift */,
 			);
@@ -142,6 +149,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = ACCCB5441F49421A0015E23D;
 			productRefGroup = ACCCB54E1F49421A0015E23D /* Products */;
@@ -158,12 +167,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCCB5671F51ECB30015E23D /* genOne.plist in Resources */,
+				ACAE17371F831221003C43CB /* genOne.plist in Resources */,
 				ACCCB55B1F49421A0015E23D /* LaunchScreen.storyboard in Resources */,
 				ACCCB5581F49421A0015E23D /* Assets.xcassets in Resources */,
-				ACCCB5651F510F4F0015E23D /* types.plist in Resources */,
+				ACAE17321F831211003C43CB /* types.plist in Resources */,
 				ACCCB5561F49421A0015E23D /* Main.storyboard in Resources */,
-				ACCCB5631F49F4370015E23D /* allmoves.plist in Resources */,
+				ACAE173C1F831232003C43CB /* allmoves.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +186,6 @@
 				ACCCB5511F49421A0015E23D /* AppDelegate.swift in Sources */,
 				ACA185431F537C9200662CD6 /* PokemonCell.swift in Sources */,
 				ACA185451F547B9400662CD6 /* DetailViewController.swift in Sources */,
-				ACA185411F53750B00662CD6 /* TableViewController.swift in Sources */,
 				ACA1853B1F5331DD00662CD6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,10 +193,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		ACAE17341F831211003C43CB /* types.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAE17331F831211003C43CB /* ja */,
+				ACAE17351F831213003C43CB /* ko */,
+				ACAE17361F83121A003C43CB /* en */,
+			);
+			name = types.plist;
+			sourceTree = "<group>";
+		};
+		ACAE17391F831221003C43CB /* genOne.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAE17381F831221003C43CB /* en */,
+				ACAE173A1F831224003C43CB /* ja */,
+				ACAE173B1F83122A003C43CB /* ko */,
+			);
+			name = genOne.plist;
+			sourceTree = "<group>";
+		};
+		ACAE173E1F831232003C43CB /* allmoves.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAE173D1F831232003C43CB /* en */,
+				ACAE173F1F831235003C43CB /* ja */,
+				ACAE17401F831238003C43CB /* ko */,
+			);
+			name = allmoves.plist;
+			sourceTree = "<group>";
+		};
 		ACCCB5541F49421A0015E23D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ACCCB5551F49421A0015E23D /* Base */,
+				ACAE172E1F8311FD003C43CB /* ja */,
+				ACAE17301F831207003C43CB /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -197,6 +237,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				ACCCB55A1F49421A0015E23D /* Base */,
+				ACAE172F1F8311FD003C43CB /* ja */,
+				ACAE17311F831207003C43CB /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -208,6 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -258,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
